@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>exqzme</Authors>
+    <Company>CoolCompany</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>REST API Models for CoolMessenger</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/exqzmepls/CoolApiModels</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/exqzmepls/CoolApiModels</RepositoryUrl>
+    <PackageId>CoolApi.Models</PackageId>
+    <Product>CoolMessenger</Product>
   </PropertyGroup>
 
   <ItemGroup>
