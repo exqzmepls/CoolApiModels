@@ -4,15 +4,12 @@ namespace CoolApiModels.Users
 {
     public class PostUserModel
     {
-        private const int PasswordMaxLength = 32;
-        private const int PasswordMinLength = 8;
-
         [Required(ErrorMessage = "Login is empty.")]
-        [StringLength(16, MinimumLength = 6)]
+        [StringLength(Constants.LoginMaxLength, MinimumLength = Constants.LoginMinLength)]
         public string Login { get; set; }
 
         [Required(ErrorMessage = "Password is empty.")]
-        [StringLength(PasswordMaxLength, MinimumLength = PasswordMinLength)]
+        [StringLength(Constants.PasswordMaxLength, MinimumLength = Constants.PasswordMinLength)]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Password confirmation is empty.")]

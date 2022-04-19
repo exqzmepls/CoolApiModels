@@ -4,10 +4,10 @@ namespace CoolApiModels.Users
 {
     public class PutUserModel
     {
-        [StringLength(16, MinimumLength = 6)]
+        [StringLength(Constants.LoginMaxLength, MinimumLength = Constants.LoginMinLength)]
         public string NewLogin { get; set; }
 
-        [StringLength(32, MinimumLength = 8)]
+        [StringLength(Constants.PasswordMaxLength, MinimumLength = Constants.PasswordMinLength)]
         public string NewPassword { get; set; }
 
         [Compare(nameof(NewPassword))]

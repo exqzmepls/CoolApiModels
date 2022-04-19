@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace CoolApiModels.Messages
@@ -8,6 +9,7 @@ namespace CoolApiModels.Messages
         [StringLength(1024)]
         public string Text { get; set; }
 
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public bool? IsViewed { get; set; }
 
         [MaxLength(10)]
