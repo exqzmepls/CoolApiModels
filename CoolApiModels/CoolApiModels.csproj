@@ -11,6 +11,11 @@
     <RepositoryUrl>https://github.com/exqzmepls/CoolApiModels</RepositoryUrl>
     <PackageId>CoolApi.Models</PackageId>
     <Product>CoolMessenger</Product>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\User\source\repos\CoolApiModels\CoolApiModels\CoolApiModels.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
