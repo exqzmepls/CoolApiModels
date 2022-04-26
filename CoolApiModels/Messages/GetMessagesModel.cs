@@ -3,7 +3,7 @@
     /// <summary>
     /// Messages portion.
     /// </summary>
-    public class GetMessagesModel : GetManyModel<ShortGetMessageModel>
+    public class GetMessagesModel : PortionDetails<ShortGetMessageModel>
     {
     }
 }

@@ -6,7 +6,7 @@ namespace CoolApiModels.Messages
     /// <summary>
     /// Message description.
     /// </summary>
-    public class GetMessageModel : BaseGetMessageModel
+    public class GetMessageModel : BaseMessageDetails
     {
         /// <summary>
         /// Collection of message attachments (photos, ...) in base64strings.

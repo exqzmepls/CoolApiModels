@@ -6,7 +6,7 @@ namespace CoolApiModels.Messages
     /// <summary>
     /// Base message description.
     /// </summary>
-    public abstract class BaseGetMessageModel
+    public abstract class BaseMessageDetails
     {
         /// <summary>
         /// Message ID.

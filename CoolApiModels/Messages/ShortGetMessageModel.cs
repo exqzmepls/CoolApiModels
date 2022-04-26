@@ -5,7 +5,7 @@ namespace CoolApiModels.Messages
     /// <summary>
     /// Short message description (without attachments collection).
     /// </summary>
-    public class ShortGetMessageModel : BaseGetMessageModel
+    public class ShortGetMessageModel : BaseMessageDetails
     {
         /// <summary>
         /// Count of message attachments.
