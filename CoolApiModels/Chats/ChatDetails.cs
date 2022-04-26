@@ -12,10 +12,10 @@ namespace CoolApiModels.Chats
     public class ChatDetails : ChatShortDetails
     {
         /// <summary>
-        /// Chat members ID collection.
+        /// Chat members collection.
         /// </summary>
         [JsonRequired]
         [SwaggerSchema("Chat members collection.")]
-        public List<UserDetails> ChatMembersIds { get; set; }
+        public IEnumerable<UserDetails> ChatMembers { get; set; }
     }
 }

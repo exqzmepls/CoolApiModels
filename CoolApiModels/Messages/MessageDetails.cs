@@ -15,6 +15,6 @@ namespace CoolApiModels.Messages
         /// </summary>
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         [SwaggerSchema("Collection of message attachments in strings (base64).")]
-        public List<string> Attachments { get; set; }
+        public IEnumerable<string> Attachments { get; set; }
     }
 }

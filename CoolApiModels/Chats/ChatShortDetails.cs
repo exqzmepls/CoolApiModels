@@ -18,10 +18,10 @@ namespace CoolApiModels.Chats
         public Guid Id { get; set; }
 
         /// <summary>
-        /// Chat creation time.
+        /// Chat creation time (local).
         /// </summary>
         [JsonRequired]
         [SwaggerSchema("Chat creation time.")]
-        public DateTime CreationTime { get; set; }
+        public DateTime CreationTimeLocal { get; set; }
     }
 }
