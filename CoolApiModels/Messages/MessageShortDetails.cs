@@ -1,16 +1,19 @@
 ﻿using Newtonsoft.Json;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace CoolApiModels.Messages
 {
     /// <summary>
-    /// Short message description (without attachments collection).
+    /// Short message details (without attachments collection).
     /// </summary>
-    public class ShortGetMessageModel : BaseGetMessageModel
+    [SwaggerSchema("Short message details.")]
+    public class MessageShortDetails : BaseMessageDetails
     {
         /// <summary>
         /// Count of message attachments.
         /// </summary>
         [JsonRequired]
+        [SwaggerSchema("Count of message attachments.")]
         public int AttachmentsCount { get; set; }
     }
 }

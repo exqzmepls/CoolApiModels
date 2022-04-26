@@ -1,17 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Swashbuckle.AspNetCore.Annotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace CoolApiModels.Users
 {
     /// <summary>
-    /// New user description.
+    /// New user details.
     /// </summary>
-    public class PostUserModel
+    [SwaggerSchema("New user details.")]
+    public class NewUserDetails
     {
         /// <summary>
         /// User login.
         /// </summary>
         [Required(ErrorMessage = "Login is empty.")]
         [StringLength(Constants.LoginMaxLength, MinimumLength = Constants.LoginMinLength)]
+        [SwaggerSchema("User login.")]
         public string Login { get; set; }
 
         /// <summary>
@@ -19,13 +22,7 @@ namespace CoolApiModels.Users
         /// </summary>
         [Required(ErrorMessage = "Password is empty.")]
         [StringLength(Constants.PasswordMaxLength, MinimumLength = Constants.PasswordMinLength)]
+        [SwaggerSchema("User password.")]
         public string Password { get; set; }
-
-        /// <summary>
-        /// Password confirmation.
-        /// </summary>
-        [Required(ErrorMessage = "Password confirmation is empty.")]
-        [Compare(nameof(Password))]
-        public string PasswordConfirmation { get; set; }
     }
 }
