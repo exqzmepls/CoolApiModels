@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CoolApiModels.Chats.ChatDetails">
+    <Position X="10.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chats\ChatDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Chats.ChatShortDetails">
+    <Position X="14" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chats\ChatShortDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Chats.ChatsPortionDetails" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chats\ChatsPortionDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Chats.NewChatDetails">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Chats\NewChatDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Messages.BaseMessageDetails">
+    <Position X="5.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAIAAAAAAABAAAAAAAACAQAAAA=</HashCode>
+      <FileName>Messages\BaseMessageDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Messages.MessageDetails">
+    <Position X="8.5" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\MessageDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Messages.MessageNewDetails">
+    <Position X="13.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Messages\MessageNewDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Messages.MessageShortDetails">
+    <Position X="8.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\MessageShortDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Messages.MessagesPortionDetails" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\MessagesPortionDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Messages.NewMessageDetails">
+    <Position X="11.75" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAAAQ=</HashCode>
+      <FileName>Messages\NewMessageDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Users.NewUserDetails">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Users\NewUserDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Users.UserDetails">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Users\UserDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Users.UserNewDetails">
+    <Position X="3.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAABAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Users\UserNewDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.Users.UsersPortionDetails" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Users\UsersPortionDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoolApiModels.PortionDetails&lt;T&gt;">
+    <Position X="7.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAABAAAAAAAAAQAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>PortionDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
