@@ -7,7 +7,7 @@ namespace CoolApiModels.Messages
     /// <summary>
     /// Base message details.
     /// </summary>
-    [SwaggerSchema("Base message details")]
+    [SwaggerSchema("Base message details.")]
     public abstract class BaseMessageDetails
     {
         /// <summary>
@@ -25,11 +25,11 @@ namespace CoolApiModels.Messages
         public Guid SenderId { get; set; }
 
         /// <summary>
-        /// Message sending date (local).
+        /// Message sending date (utc).
         /// </summary>
         [JsonRequired]
         [SwaggerSchema("Message sending date.")]
-        public DateTime SendingTimeLocal { get; set; }
+        public DateTime SendingTimeUtc { get; set; }
 
         /// <summary>
         /// Is message viewed by other chat member.
@@ -37,6 +37,14 @@ namespace CoolApiModels.Messages
         [JsonRequired]
         [SwaggerSchema("Is message viewed by other chat member.")]
         public bool IsViewed { get; set; }
+
+        /// <summary>
+        /// Message modification time (utc).
+        /// </summary>
+        [JsonRequired]
+        [JsonProperty(NullValueHandling = NullValueHandling.Include)]
+        [SwaggerSchema("Message modification time.")]
+        public DateTime? ModificationTimeUtc { get; set; }
 
         /// <summary>
         /// Message text.

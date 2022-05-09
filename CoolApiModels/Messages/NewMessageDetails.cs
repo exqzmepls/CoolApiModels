@@ -15,7 +15,7 @@ namespace CoolApiModels.Messages
         /// <summary>
         /// Chat ID to add message.
         /// </summary>
-        [Required(ErrorMessage = "Chat Id is empty")]
+        [Required(ErrorMessage = "Chat Id is empty.")]
         [SwaggerSchema("Chat ID to add message.")]
         public Guid ChatId { get; set; }
 
