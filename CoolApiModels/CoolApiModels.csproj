@@ -11,7 +11,9 @@
     <RepositoryUrl>https://github.com/exqzmepls/CoolApiModels</RepositoryUrl>
     <PackageId>CoolApi.Models</PackageId>
     <Product>CoolMessenger</Product>
-    <Version>2.1.0</Version>
+    <Version>2.2.1</Version>
+    <AssemblyVersion>2.2.1.0</AssemblyVersion>
+    <FileVersion>2.2.1.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
