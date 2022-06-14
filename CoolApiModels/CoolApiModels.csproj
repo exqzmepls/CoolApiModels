@@ -5,15 +5,13 @@
     <Authors>exqzme</Authors>
     <Company>CoolCompany</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>REST API Models for CoolMessenger</Description>
+    <Description>REST API DTOs for CoolMessenger</Description>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/exqzmepls/CoolApiModels</PackageProjectUrl>
     <RepositoryUrl>https://github.com/exqzmepls/CoolApiModels</RepositoryUrl>
     <PackageId>CoolApi.Models</PackageId>
     <Product>CoolMessenger</Product>
     <Version>2.2.1</Version>
-    <AssemblyVersion>2.2.1.0</AssemblyVersion>
-    <FileVersion>2.2.1.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
